@@ -1,0 +1,58 @@
+/* Calculation design and Mulliken report additions. */
+.audit-notice { margin: 22px 0; }
+.binding-block { margin-bottom: 54px; }
+#dos .dos-block { margin-top: 0; }
+#dos .figure-grid { margin-top: 24px; }
+.image-button, .figure-card.featured .image-button { aspect-ratio: auto; height: 260px; background: #fff; padding: 8px; }
+.image-button img { object-fit: contain; }
+.image-button:hover img { transform: none; }
+.figure-grid-dos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.figure-grid-dos .image-button, .figure-grid-dos .featured .image-button { height: 490px; }
+.figure-grid-dos .featured { grid-column: 1 / -1; }
+.figure-grid-dos .featured .image-button { height: 340px; }
+.question-card { padding-bottom: 58px; }
+.metric-card strong { font-size: 30px; font-weight: 800; }
+.metric-card strong small { font-size: 12px; }
+.legend { flex-wrap: wrap; }
+@media (max-width: 580px) {
+  .figure-grid-dos { grid-template-columns: 1fr; }
+  .figure-grid-dos .image-button, .figure-grid-dos .featured .image-button { height: 400px; }
+  .hero-actions { flex-wrap: wrap; }
+  .visual-caption { font-size: 10px; line-height: 1.8; }
+  .model-table.plan-table th:nth-child(4), .model-table.plan-table td:nth-child(4) { display: table-cell; }
+}
+section[id] { scroll-margin-top: 100px; }
+.nav { gap: 20px; }
+.plan-banner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 25px 28px; border: 1px solid #dce3fa; background: #edf1ff; border-radius: 18px; margin-bottom: 22px; }
+.plan-banner b { font-size: 16px; }
+.plan-banner p { color: var(--muted); font-size: 12px; line-height: 1.85; margin: 8px 0 0; max-width: 760px; }
+.plan-banner .btn { flex-shrink: 0; }
+.plan-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.plan-card { padding: 26px; border: 1px solid var(--line); border-radius: 18px; background: #fff; }
+.plan-card h3 { font-size: 18px; margin: 12px 0; }
+.plan-card p { color: var(--muted); font-size: 12px; line-height: 1.85; margin: 0; }
+.plan-card .plan-output { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 14px; }
+.plan-output b { color: var(--ink); }
+.plan-details { border: 1px solid var(--line); border-radius: 16px; background: #fff; margin-top: 22px; overflow: hidden; }
+.plan-details summary { cursor: pointer; padding: 20px 24px; font-size: 14px; font-weight: 700; color: var(--blue-dark); }
+.plan-details summary:focus-visible { outline: 2px solid var(--blue); outline-offset: -4px; }
+.plan-detail-body { padding: 0 24px 22px; }
+.table-scroll { overflow-x: auto; }
+.plan-table { min-width: 580px; }
+.plan-table caption { text-align: left; color: var(--muted); font-size: 11px; padding: 4px 14px 20px; }
+.plan-table td { vertical-align: top; font-size: 12px; }
+.plan-table th { white-space: nowrap; }
+.plan-equations { background: #f4f6fc; border-radius: 12px; padding: 14px 20px; margin-top: 20px; overflow-wrap: anywhere; }
+.plan-equations p { font-size: 14px; margin: 7px 0; }
+.plan-equations small { display: block; color: var(--muted); line-height: 1.85; font-size: 11px; margin-top: 12px; }
+.plan-note { margin-top: 22px; }
+.plan-scope { font-size: 12px; color: var(--muted); line-height: 1.85; margin: 20px 0 0; }
+.mulliken-definition { border-left: 3px solid var(--blue); padding: 4px 0 4px 20px; margin-bottom: 24px; }
+.mulliken-definition b { font-size: 16px; }
+.mulliken-definition p { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+.mulliken-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.mulliken-metrics .metric-card strong { font-size: 30px; font-weight: 800; }
+.mulliken-metrics .metric-card strong small { font-size: 12px; }
+.mulliken-actions { flex-wrap: wrap; margin-top: 24px; }
+@media (max-width: 1080px) { .nav { gap: 12px; font-size: 11px; } .phase-pill { display: none; } }
+@media (max-width: 700px) { .plan-banner { align-items: flex-start; flex-direction: column; padding: 22px; } .plan-grid, .mulliken-metrics { grid-template-columns: 1fr; } .plan-detail-body { padding: 0 16px 20px; } .plan-details summary { padding: 18px 16px; } }

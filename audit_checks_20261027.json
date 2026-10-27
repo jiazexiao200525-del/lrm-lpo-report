@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "scope": "Existing structured summaries and HTML; no new DFT calculation or structural acceptance",
+  "html": {
+    "balanced_tags": true,
+    "unique_ids": 15,
+    "local_references_checked": 45,
+    "missing_targets": []
+  },
+  "binding_eV_cell": "-11.43743716678",
+  "interface_count_from_existing_structure_audit": 1,
+  "area_A2": 174.99271362124614,
+  "frozen_separation_work_J_m2": 1.0471747195783376,
+  "O_p_at_EF_percent": 85.61730241233059,
+  "LRM_phase_at_EF_percent": 74.77197422906555,
+  "Mn_d_EF_decrease_percent": 31.033415440963175,
+  "LRM_phase_EF_decrease_percent": 28.599529880598173,
+  "Mn_d_minus0p5_to0_change_states": 0.09443024256577837,
+  "LRM_phase_minus0p5_to0_change_states": 2.601337793616681,
+  "mulliken_element_sums_verified": true,
+  "mulliken_population_residual_e": 0.002099999999996882,
+  "density_integral_residual_e": -0.0005677566677664281,
+  "LPO_halfspace_sensitivity_range_e": [
+    0.16801038842582414,
+    0.2569399115252139
+  ]
+}
